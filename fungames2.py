@@ -9,7 +9,9 @@ StandAlones = (" The Girl Who Was Supposed to Die", "The Silent Patient")
 
 # WDUWR means What do u want to read
 
-WDUWR = input ("Please select a Genre \n Crime \n Mystery \n Hitler times \n StandAlones")
+print ("Welcome to my book recommendation program!")
+
+WDUWR = input ("Please select a Genre \n Crime \n Mystery \n Hitler times \n StandAlones \n")
 
 WDUWR = WDUWR.lower().strip()
 
