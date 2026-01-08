@@ -7,24 +7,24 @@ Hitler = ("The Boy in the striped pj's", "The Book thief", "All the light we can
 
 StandAlones = (" The Girl Who Was Supposed to Die", "The Silent Patient")
 
-# WDUWR means What do u want to read
+# TBR means What do u want to read also means To Be Read
 
 print ("Welcome to my book recommendation program!")
 
-WDUWR = input ("Please select a Genre \n Crime \n Mystery \n Hitler times \n StandAlones \n")
+TBR = input ("Please select a Genre \n Crime \n Mystery \n Hitler times \n StandAlones \n")
 
-WDUWR = WDUWR.lower().strip()
+TBR = TBR.lower().strip()
 
-if (WDUWR == "crime"):
+if (TBR == "crime"):
     print (Crime)
 
-elif (WDUWR == "mystery"):
+elif (TBR == "mystery"):
     print (Mystery)
 
-elif (WDUWR == "hitler times"):
+elif (TBR == "hitler times"):
     print (Hitler)
 
-elif (WDUWR == "standalones"):
+elif (TBR == "standalones"):
     print (StandAlones)
 
 else:
