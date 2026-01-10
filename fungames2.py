@@ -29,5 +29,3 @@ elif (TBR == "standalones"):
 
 else:
     print ("Sorry, we don't have that genre.")
-
-    '''Yooo slayyyy gtgggbyee'''
